@@ -1,9 +1,11 @@
 import React from 'react';
+import FlightsService from '../components/FlightsService';
 
 const Home = () => {
     return (
-        <div>
-            <h1>home page</h1>
+        <div >
+           
+            <FlightsService></FlightsService>
         </div>
     );
 };

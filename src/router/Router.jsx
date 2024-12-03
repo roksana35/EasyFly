@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import ErrorPage from "../pages/ErrorPage";
 import Main from "../layout/Main";
+import FlightResult from "../components/FlightResult";
 
 
 const router = createBrowserRouter([
@@ -13,8 +14,14 @@ const router = createBrowserRouter([
             {
                 path:'/',
                 element:<Home></Home>
+            },
+            {
+                path:'/flight-results',
+                element:<FlightResult></FlightResult>
             }
         ]
+            
+        
     }
 ]);
 
